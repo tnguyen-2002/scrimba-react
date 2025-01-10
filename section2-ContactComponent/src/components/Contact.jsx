@@ -1,27 +1,40 @@
-export default function Contact() {
+/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
+Contact.prototype = {
+    img: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    phone: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+}
+
+export default function Contact(props) {
     return (
         <>
             <article className="contact-card">
-            <img
-                src="src/images/shinji-akari.png"
-                alt="Photo of Shinji"
-            />
-            <h3>Shinji Ikari</h3>
-            <div className="info-group">
+                <div className="img-container">
                 <img
-                    src="src/images/call.png"
-                    alt="phone icon"
+                    src= {props.img}
+                    alt= {`Image of ${props.name}`}
                 />
-                <p>(212) 555-1234</p>
-            </div>
-            <div className="info-group">
-                <img
-                    src="src/images/email.png"
-                    alt="mail icon"
-                />
-                <p>mr.whiskaz@catnap.meow</p>
-            </div>
-        </article>
+                </div>
+                <h3>{props.name}</h3>
+                <div className="info-group">
+                    <img
+                        src="src/images/call.png"
+                        alt="phone icon"
+                    />
+                    <p>{props.phone}</p>
+                </div>
+                <div className="info-group">
+                    <img
+                        src="src/images/email.png"
+                        alt="mail icon"
+                    />
+                    <p>{props.email}</p>
+                </div>
+            </article>
         </>
     )
 }
+
