@@ -6,54 +6,6 @@ html {
   box-sizing: border-box;
 }
 
-#root{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.contact-card {
-  width: 40%;
-  min-width: 250px;
-  margin: 30px 25px;
-  border: 1px #ccc solid;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.contact-card .img-container {
-  margin-top: 10px;
-  width: 200px; /* Desired width */
-  height: 200px; /* Desired height */
-  overflow: hidden; /* Hides parts of the image outside the container */
-  position: relative;
-}
-
-.contact-card .img-container > img {
-  width: 150px; /* Image size */
-  height: auto; 
-  position: absolute;
-  right: 20px;
-}
-
-.contact-card > h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-.contact-card .info-group {
-  display: flex;
-  align-items: center;
-  margin: 0 20px;
-}
-
-.contact-card .info-group > img {
-  width: 1.3rem;
-  margin: 0 10px;
-}
-
-.contact-card .info-group > p {
-  font-size: 1rem;
+.joke-setup {
+  font-weight: 600;
 }
