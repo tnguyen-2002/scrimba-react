@@ -12,20 +12,20 @@ export default function App() {
       <Contact 
         img="src/images/asuka.png"
         name="Asuka Langley"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
+        phone="(212) 666-1234"
+        email="mr.abcdkaz@catnap.meow"
       />
       <Contact 
         img="src/images/rei.png"
         name="Rei Ayanami"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
+        phone="(212) 777-1234"
+        email="mr.wwwwkaz@catnap.meow"
       />
       <Contact 
         img="src/images/kaworu.png"
         name="Kaworu Nagisa"
-        phone="(212) 555-1234"
-        email="mr.whiskaz@catnap.meow"
+        phone="(212) 888-1234"
+        email="mr.dfqqaddv@catnap.meow"
       />
     </>
   )
