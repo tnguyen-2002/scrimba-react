@@ -26,6 +26,7 @@ export default function App() {
         <Joke
           punchline="It’s hard to explain puns to kleptomaniacs because 
           * they always take things literally."
+          width={200}
         />
         <Joke
           setup="How did the hacker escape the police?"
