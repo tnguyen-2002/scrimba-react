@@ -1,11 +1,28 @@
-html {
+html, body {
   height: 100%;
+  margin: 0;
 }
 
 *{
   box-sizing: border-box;
+  font-family:  'Inter';
 }
 
-.joke-setup {
-  font-weight: 600;
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #F55A5A;
+  align-items: center;
+  justify-content: center;
+  height: 3.467em;
+}
+
+.header > img {
+  width: 1.5em;
+  margin: 0.6em;
+}
+
+.header > p {
+  font-size: 0.9em;
+  color: #fff;
 }
