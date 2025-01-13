@@ -1,107 +1,95 @@
 html, body {
-  height: 100%;
   margin: 0;
+  font-size: 16px;
 }
 
 *{
-  box-sizing: border-box;
-  font-family:  'Inter';
+  font-family: 'Inter';
 }
 
 .header {
-  display: flex;
-  width: 100%;
   background-color: #F55A5A;
-  align-items: center;
+  display: flex;
   justify-content: center;
-  height: 3.467em;
+  align-items: center;
 }
 
 .header > img {
-  width: 1.5em;
-  margin: 0.6em;
+  width: 1.5rem;
 }
 
 .header > p {
-  font-size: 0.9em;
+  font-size: 0.904rem;
+  margin-left: 0.5rem;
   color: #fff;
 }
 
-.entry-container {
-  display: grid;
-  place-items: center;
-}
-
 .entry {
-  margin: 2.5em;
   display: flex;
-  height: 10.5rem;
-  width: 75%;
+  padding: 1.875rem;
 }
 
 .entry .img-container {
-  width: 7.8125em;
-  height: 10.5em;
-  overflow: hidden;
-  border-radius: 5px;
+  width: 7.813rem;
+  height: 10.5rem;
+  overflow: hidden; 
+  border-radius: 0.313rem;
   flex-shrink: 0;
 }
 
 .entry .img-container > img {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
-.entry .content {
-  display: block;
-  align-items: center;
-  margin-left: 20px;
+.entry .main-article {
+  margin-left: 2rem;
 }
 
-.entry .content .place-info {
+.entry .main-article .place-info {
   display: flex;
   align-items: center;
 }
 
-.entry .content .place-info > img {
-  margin-right: 5px;
-  width: 0.4em;
+.entry .main-article .place-info > img {
+  width: 0.438rem;
 }
 
-.entry .content .place-info > p {
-  margin: 5px 0px;
+.entry .main-article .place-info > p {
+  font-size: 0.64rem;
+  margin-left: 0.2rem;
+  text-transform: uppercase;
+  
 }
 
-.entry .content .place-info > a {
+.entry .main-article .place-info > a {
+  margin-left: 0.5rem;
   color: #2B283A;
-  margin: 0 10px;
+  font-size: 0.64rem;
 }
 
-.entry .content .place-info > a:visited{
-  color: #918E9B;
+.entry .main-article > h2 {
+  text-transform: capitalize;
+  font-size: 1.563rem;
+  margin: 0.5rem 0;
 }
 
-.entry .content > h2 {
-  font-size: 25px;
-  margin: 0.3125em 0;
-}
-
-.entry .place-date {
-  font-size: 0.8rem;
+.entry .main-article .trip-date {
   font-weight: 600;
+  font-size: 0.64rem;
 }
 
-.entry .place-desc {
-  font-size: 0.8rem;
+.entry .main-article .place-desc {
+  font-size: 0.64rem;
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-hr {
-  width: 75%;
-  border: #f5f5f5 solid 1px;
+hr.break-line {
+  width: 91%;
+  border: #ccc solid 1px
 }

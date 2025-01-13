@@ -18,43 +18,43 @@
  * show the punchline?
  */
 
-import Entry from "./components/Entry"
 import Header from "./components/Header"
+import Entry from "./components/Entry"
 
 export default function App() {
   return (
       <>
         <Header />
         <main className="entry-container">
-          <Entry 
+          <Entry
             img={{
-              src: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
-              alt: "Image of Mount Fuji"
+              src:"https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
+              alt:"Image of Mount Fuji"
             }}
-            location="Japan"
-            name="Mount Fuji"
-            date="12 Jan, 2021 - 24 Jan, 2021"
-            description="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
+            country="Japan"
+            title="mount fuji"
+            tripDate="12 Jan, 2021 - 24 Jan, 2021"
+            placeDesc="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
           />
-          <Entry 
+          <Entry
             img={{
-              src: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
-              alt: "Image of Mount Fuji"
+              src:"https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
+              alt:"Image of Mount Fuji"
             }}
-            location="Japan"
-            name="Mount Fuji"
-            date="12 Jan, 2021 - 24 Jan, 2021"
-            description="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
+            country="Japan"
+            title="mount fuji"
+            tripDate="12 Jan, 2021 - 24 Jan, 2021"
+            placeDesc="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
           />
-          <Entry 
+          <Entry
             img={{
-              src: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
-              alt: "Image of Mount Fuji"
+              src:"https://images.unsplash.com/photo-1589308078059-be1415eab4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDIwNjJ8MHwxfGFsbHx8fHx8fHx8fDE3MjMyMzUwNjR8&ixlib=rb-4.0.3&q=80&w=1080",
+              alt:"Image of Mount Fuji"
             }}
-            location="Japan"
-            name="Mount Fuji"
-            date="12 Jan, 2021 - 24 Jan, 2021"
-            description="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
+            country="Japan"
+            title="mount fuji"
+            tripDate="12 Jan, 2021 - 24 Jan, 2021"
+            placeDesc="Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists."
           />
         </main>
         
