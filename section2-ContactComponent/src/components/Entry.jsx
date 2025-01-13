@@ -1,9 +1,10 @@
 export default function Entry(prop) {
+    console.log(prop)
     return(
         <>
             <article className="entry">
                 <div className="img-container">
-                    <img src="src/images/mount-fuji.jpeg" alt={`Image of ${prop.name}`} />
+                    <img src={prop.img.src} alt={prop.img.alt} />
                 </div>
                 <div className="content">
                     <span className="place-info">
@@ -11,11 +12,13 @@ export default function Entry(prop) {
                         <p>{prop.location}</p>
                         <a href="#">View on Google Maps</a>
                     </span>
-                    <h1 className="place-title">{prop.name}</h1>
+                    <h2 className="place-title">{prop.name}</h2>
                     <p className="place-date">{prop.date}</p>
                     <p className="place-desc">{prop.description}</p>
                 </div>
             </article>
+
+            <hr />
         </>
     )
 }

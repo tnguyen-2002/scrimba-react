@@ -33,17 +33,18 @@ html, body {
 }
 
 .entry {
-  margin: 40px;
+  margin: 2.5em;
   display: flex;
-  height: 168px;
-  width: 29.375em;
+  height: 10.5rem;
+  width: 75%;
 }
 
 .entry .img-container {
-  width: 35%;
-  height: 168px;
+  width: 7.8125em;
+  height: 10.5em;
   overflow: hidden;
   border-radius: 5px;
+  flex-shrink: 0;
 }
 
 .entry .img-container > img {
@@ -73,20 +74,34 @@ html, body {
 }
 
 .entry .content .place-info > a {
-  color: #918E9B;
+  color: #2B283A;
   margin: 0 10px;
 }
 
-.entry .content > h1 {
+.entry .content .place-info > a:visited{
+  color: #918E9B;
+}
+
+.entry .content > h2 {
   font-size: 25px;
   margin: 0.3125em 0;
 }
 
 .entry .place-date {
-  font-size: 10.24px;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .entry .place-desc {
-  font-size: 10.24px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 
+hr {
+  width: 75%;
+  border: #f5f5f5 solid 1px;
 }
