@@ -9,10 +9,10 @@ export default function Entry(prop) {
                     <div className="place-info">
                         <img src="src/images/marker.png" alt="" />
                         <p>{prop.country}</p>
-                        <a href="#">Views on Google Maps</a>
+                        <a href={prop.googleMapsLink}>Views on Google Maps</a>
                     </div>
                     <h2>{prop.title}</h2>
-                    <p className="trip-date">{prop.tripDate}</p>
+                    <p className="trip-date">{prop.dates}</p>
                     <p className="place-desc">{prop.placeDesc}</p>
                 </div>
            </article>

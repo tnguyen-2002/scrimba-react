@@ -1,27 +1,26 @@
-import jokesData from "./jokesData.js"
-import Joke from "./components/Joke.jsx"
-
-/**
-     * Challenge: See if you can correctly pass the necessary props to the 
-     * Joke component in the .map() (and render the jokeElements array) so 
-     * the jokes show up on the page again
-     */
+import Header from "./components/Header"
+import Entry from "./components/Entry"
+import dataArray from "./data"
 
 export default function App() {
-  const jokesList = jokesData.map((joke) => {
-    return (
-      <Joke 
-        key = {joke.id}
-        setup = {joke.setup}
-        punchline={joke.punchline}
+  const placeArray = dataArray.map((place) => {
+    return(
+      <Entry 
+        key = {place.id}
+        img = {place.img}
+        country = {place.country}
+        googleMapsLink = {place.googleMapsLink}
+        title = {place.title}
+        dates = {place.dates}
+        placeDesc = {place.text}
       />
     )
   })
-
   return(
     <>
-      <main>
-        {jokesList}
+      <Header />
+      <main className="entry-container">
+        {placeArray}
       </main>
     </>
   )
