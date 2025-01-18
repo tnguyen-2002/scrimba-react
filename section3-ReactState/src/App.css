@@ -16,3 +16,36 @@
     font-size: 2rem;
     font-weight: 400;
 }
+
+.ingredient-form{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.ingredient-form > input{
+    width: 50%;
+    height: 2.375rem;
+    margin: 0 0.5rem;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: #ccc 1px solid;
+    border-radius: 5px;
+}
+
+.ingredient-form > input:focus{
+    
+}
+
+
+.ingredient-form > button{
+    width: 11.438rem;
+    height: 2.375rem;
+    background-color: #141413;
+    color: #fafaf8;
+    border: none;
+    border-radius: 5px;
+}
